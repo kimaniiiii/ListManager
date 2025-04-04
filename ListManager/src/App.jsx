@@ -15,11 +15,11 @@ function App() {
 
   return (
     <div className="mainContainer">
-      <h1>Dynamic List Manager</h1>
+      <h1 classname ="textleft">Dynamic List Manager</h1>
 
       <input
         type="text"
-        placeholder="Enter text here"
+        placeholder="Enter an item"
         className="input-list"
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
