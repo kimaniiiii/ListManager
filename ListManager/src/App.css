@@ -1,0 +1,61 @@
+
+.mainContainer {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  color: rgb(6, 160, 160);
+  margin-bottom: 15px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.input-list {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid rgb(6, 160, 160);
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  width: 70%;
+}
+
+button {
+  background-color: rgb(6, 160, 160);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: rgb(4, 94, 94);
+}
+
+.listContainer {
+  margin-top: 15px;
+  padding: 10px;
+  background: #e6f9f8;
+  border-radius: 5px;
+  border: 1px solid rgb(6, 160, 160);
+  text-align: left;
+}
+
+.list-item {
+  font-size: 14px;
+  padding: 5px;
+  color: rgb(6, 160, 160);
+}
